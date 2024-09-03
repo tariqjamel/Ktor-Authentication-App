@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.ktorauthenticate.ui.AuthScreen
+import com.example.ktorauthenticate.ui.NavGraphs
 import com.example.ktorauthenticate.ui.theme.KtorAuthenticateTheme
 import com.ramcosta.composedestinations.DestinationsNavHost
 import dagger.hilt.android.AndroidEntryPoint
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             KtorAuthenticateTheme {
 //                DestinationsNavHost(navGraph = NavGraphs.root)
-                AuthScreen()
+                DestinationsNavHost(navGraph = NavGraphs.root)
             }
         }
     }
