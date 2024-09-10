@@ -23,6 +23,9 @@ The app utilizes a Ktor-based authentication API featuring:
 - **MongoDB**: For data storage, including user information.
 - **SHA-256**: For hashing passwords.
 
+### Screenshot
+<img  src="mongodb_collection.png" width="80%" height="50%">
+
 ### Configuration
 
 - The API is configurable for local use with customizable IP addresses and MongoDB settings.
